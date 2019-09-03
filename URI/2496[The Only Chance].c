@@ -20,10 +20,10 @@ int main(void) {
 		err1 = ordered(0, str);
 		err2 = ordered(err1+1, str);
 
-    if (err1 == -1) {
-    	printf("There are the chance\n");
+    		if (err1 == -1) {
+    			printf("There are the chance\n");
 			continue;
-    }
+		}
         
 		aux = str[err1];
 		str[err1] = str[err2];
